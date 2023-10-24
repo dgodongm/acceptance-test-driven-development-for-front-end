@@ -37,5 +37,3 @@ jobs:
       with:
         start: npm start
         wait-on: 'http://localhost:3000'
-      env:
-        APPLITOOLS_API_KEY: ${{ secrets.APPLITOOLS_API_KEY }}
